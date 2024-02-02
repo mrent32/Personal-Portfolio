@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 header {
     border: 2px solid white;
@@ -7,17 +7,41 @@ header {
     margin: 1%;
     text-align: center;
 }
-
+h1 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
 header h3 {
     text-align: center;
+    margin-top: 50px;
 }
 
-nav a {
+#social-media-icons {
+    margin-bottom: 50px;
+}
+nav {
+    margin-top: 50px;
+}
+.icon {
+    margin: 50px;
+}
+.links{
     padding: 100px;
     color: white;
     font-size: larger;
     display: inline;
 }
+#about {
+    margin: 100px;
+    max-width: max-content;
+    max-height: max-content;
+}
+#contact {
+    margin: 100px;
+    max-width: max-content;
+    max-height: max-content;
+}
+
 
 nav a span {
     pointer-events: none;
@@ -50,6 +74,12 @@ footer {
 footer h3{
     padding: 40px;
 
+}
+#pic {
+width: 500px; 
+height: 500px;
+display: flex;
+justify-content: center;
 }
 /* media queries */
 @media screen and (max-width: 992px) {
